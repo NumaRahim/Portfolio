@@ -1,0 +1,96 @@
+p{
+    margin:0px;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color:#023047;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.basicintro{
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 50px;
+}
+.Introduction{
+    padding: 100px;
+}
+.name{
+    font-size: 35px;
+    text-align: center;
+    color: #8ecae6;
+    font-weight: 200;
+    font-family: "Franklin Gothic Mediumsans-serif"
+}
+.org{
+    text-align: center;
+    font-size:19px;
+    color: azure;
+   
+}
+.Aboutme{
+    background-color:rgb(57, 214, 115);
+    text-align: center;
+    padding: 50px;
+}
+    h1{
+        color:rgb(11, 63, 44);
+    }
+.image{
+    border-radius: 50%;
+    height: 150px;
+    width:150px;
+}
+.About{
+    display:inline
+
+}
+.Aboutme ul{
+    list-style: none;
+}
+.contact{
+    padding:40px;
+    margin:0px;
+}
+h2{
+    color:#8ecae6;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+}
+h2:hover{
+    color: rgb(108, 8, 21);
+    background-color: rgb(179, 219, 219);
+    transform: scale(1.1);
+}
+.button{
+    background-color: azure;
+    font-size: 17px;
+    color: black;
+    border: #f0ffff 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    word-spacing: none;
+    margin: 44%;
+}
+.button:hover{
+    background-color: rgba(20, 96, 25, 0.728);
+    color: azure;
+    border: black;
+}
+.footer{
+    height: 25px;
+    background-color: white;
+    color: #07374a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footertext{
+    text-align: center;
+    background-color: white;
+}
